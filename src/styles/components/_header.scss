@@ -1,11 +1,28 @@
-.header{
-  font-size: 1.4rem;
-  @include for-size(tablet-portrait-up){
-    font-size: 1.6rem;
-    color: red;
+.Header{
+  z-index: 2;
+  position: fixed;
+  background: transparent;
+  padding: 26px;
+  &-logo {
+    fill: #fff;
+    width: 120px
+    height: 32px;
   }
-  @include for-size(desktop-up){
-    font-size: 2rem;
-    color: blue;
-  };
+  &-arrowIcon {
+    stroke: #fff;
+    width: 10px;
+    height: 10px;
+  }
+  &-phoneIcon {
+    display: block;
+    width: 10px;
+    height: 14px;
+    fill: #fff;
+  }
+  &-phoneLink {
+    color: #fff;
+    font-family: 'Open Sans';
+    font-size: 12px;
+    text-decoration: none;
+  }
 }
