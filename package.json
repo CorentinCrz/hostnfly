@@ -1,9 +1,9 @@
 {
   "name": "parcel",
   "version": "1.0.0",
-  "description": "",
+  "description": "Parcel",
   "main": "src/index.js",
-  "author": "Andy",
+  "author": "",
   "license": "ISC",
   "scripts": {
     "start": "parcel src/index.html",
@@ -14,13 +14,13 @@
     "parcel-bundler": "^1.6.2"
   },
   "devDependencies": {
-    "autoprefixer": "^8.0.0",
+    "autoprefixer": "^8.1.0",
     "babel-core": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "node-sass": "^4.7.2"
   },
+  "keywords": [],
   "dependencies": {
-    "flexbox": "0.0.3",
     "flexboxgrid": "^6.3.1"
   }
 }
